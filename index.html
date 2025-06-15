@@ -9,7 +9,7 @@ Select ONE Additional Feature to Add
 [ no ] Feature 1 - Google Font
 [ no ] Feature 2 - Upload a Font
 [ no ] Feature 3 - Include jQuery
-[ no ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
+[ Yuh ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
 [ no ] Feature 5 - Customized HTML Page #5
 -->
 
@@ -25,7 +25,7 @@ Select ONE Additional Feature to Add
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
       .parallax {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url("https://i.pinimg.com/736x/bc/44/44/bc44446fcd5b546c01309cb8832131c4.jpg");
 
         /* Set a specific height */
         min-height: 500px;
@@ -36,34 +36,63 @@ Select ONE Additional Feature to Add
         background-repeat: no-repeat;
         background-size: cover;
       }
+      
+      .stars {
+  padding-left: 6%;
+  color: #00171f;
+}
+      
       .textblock {
         min-height: 500px;
-        background-color: black;
+        background-color: #ada09c;
         color: white;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
       }
+      
       .parent-flex {
         display: flex;
-      }
-      .child-flex {
-        background-color: green;
-        margin: 30px;
-        padding: 10px;
-        text-align: justify;
-        width: 40%;
-      }
-      .para-1{
-        display: flex;
         align-items: center;
+        justify-content: space-evenly; 
       }
+      
+      .child-flex {
+        background-color: #8b9474;
+        margin: 0px;
+        padding: 0px;
+        text-align: justify;
+        width: 35%;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      .para-1 {
+        background-color: #8b9474;
+        margin: 0px;
+        padding: 25px;
+        text-align: left;
+        width: 35%;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        #intro {
+          margin-top: -20px;
+          color: #483634
+        }
+      }
+      }
+      
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="videogames.html">Video Games</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="misc.html">Misc</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -81,31 +110,29 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
+    <h1><em>~Welcome to my Web Page</em></h1>
+    <p class="stars">.・。.・゜✭・.・✫・゜・。.</p>
     <div class="parallax"></div>
 
     <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+      <div class="para-1">
+        <h2>
+          Hi! I'm Kestrel
+        </h2>
+        <p id="intro">
+       She/Her | 17 | INFJ | Cancer
         </p>
+        <p>
+          I love all things <em>aesthetic</em> so I wanted to make a page representing that. Each page of this websight is about diferent types of media and my recomendations for each! What are my qualifications?? I'm so glad you asked! My average screen time is 11 hours :D <br> I hope that clarifies things!
+        </p>
+        <img
+            src="https://66.media.tumblr.com/9356a5343569692547be79f4fe460829/tumblr_mit6meq11R1rfjowdo1_500.gif"
+            style="width: 100%;"
+        />
       </div>
       <div class="child-flex">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4qKNN5g0CgHGBwge5l9OnR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </div>
   </body>

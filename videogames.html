@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #8b9474;
+        margin-bottom: 50px;
+      }
+     
+      .stars {
+  padding-left: 3%;
+  color: #00171f;
+} 
+      
+      h2{
+        color: white;
+        margin-top: -15px;
+        margin-left: 25px;
+      }
+      
+      .game {
+        width: 400px;
+        border-radius: 15px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #ada09c; text-align: justify;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .child-flex {
+        margin: 20px
+      }
+      
+      .child-flex  p {
+        background-color: #463834;
+        text-align: justify;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px; 
+        color: white;
+        margin: 20px;
+        font-size: 20px;
+      }
+      
+      .child-flex  img {
+        text-align: justify;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        backgound-color: #8b9474;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ⬆⬆⬆⬆ Nav Bar -->
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="videogames.html">Video Games</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="misc.html">Misc</a></li>
+      <li style="float: right">
+        <a target="_blank" href=""
+          ><img
+            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
+            style="width: 25px; margin: -5px"
+        /></a>
+      </li>
+      <li style="float: right">
+        <a target="_blank" href=""
+          ><img
+            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
+            style="width: 25px; margin: -5px"
+        /></a>
+      </li>
+    </ul>
+
+    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
+    <h1><em>~Video Game Recs</em></h1>
+    <p class="stars">.・。.・゜✭・.・✫・゜・。.</p>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          class="game"
+          src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1711128146"
+        />
+      </div>
+      <div class="child-flex">
+        <h2>
+          Stardew Valley
+        </h2>
+        <p>
+You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life! The cute pixel art and amazing soundtrack make Stardew relaxing and super fun to play. This is my favorite video game of all time!
+        </p>
+      </div>
+    </div>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <h2>
+          Potion Craft
+        </h2>
+        <p>
+Potion Craft is an alchemist simulator where you physically interact with your tools and ingredients to brew potions, increase the reputation of your shop and discover new ingredients to create the best concoctions in town! I love the medival art style and the game play!
+        </p>
+      </div>
+      <div class="child-flex">
+        <img class="game"
+          src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1210320/capsule_616x353.jpg?t=1748263535"
+        />
+      </div>
+    </div>
+  </body>
+</html>
