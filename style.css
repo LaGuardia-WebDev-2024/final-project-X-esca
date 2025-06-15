@@ -13,7 +13,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #463834;
   position: fixed;
   top: 0;
   width: 100%;
@@ -22,6 +22,10 @@ ul.nav {
 
 ul.nav li {
   float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left:1%;
+  padding-right:1%;
 }
 
 ul.nav li a {
@@ -33,13 +37,23 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #bad2e3;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #ada09c;
 }
 
 h1 {
-  width: 100%;
+  color: #00171f;
+  padding-left: 2%;
+  margin-bottom: -10px;
+  margin-top: 25px;
+  
+}
+
+#music {
+  width: 350px;
+  height: 350px;
+  align-content: center;
 }
